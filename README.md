@@ -85,3 +85,8 @@ Function to validate input fields based on the `Validatable` interface.
 1. Install dependencies:
    ```sh
    npm install
+   ```
+2. Build a JS file
+   ```sh
+   tsc -w
+   ```
