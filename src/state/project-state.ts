@@ -1,6 +1,6 @@
-import { Project, ProjectStatus } from "../models/project.js";
+import { Project, ProjectStatus } from "../models/project";
 
-// Project State Management
+// Project State Managementimport { ProjectInput } from "./components/project-input.js
 type Listener<T> = (items: T[]) => void;
 
 class State<T> {
